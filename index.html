@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Battleship Game</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+      border: 1px solid black;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Battleship Game</h1>
+  <label for="userInput">Enter coordinates to attack (e.g. A3): </label>
+  <input type="text" id="userInput">
+  <button id="attackButton">Attack</button>
+  <h2 id="userResult"></h2>
+  <h2 id="computerResult"></h2>
+
+  <h3>User's Board</h3>
+  <table id="userBoard"></table>
+  <h3>Computer's Board</h3>
+  <table id="computerBoard"></table>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
